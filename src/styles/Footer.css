@@ -1,0 +1,153 @@
+/* General CSS */
+.contact {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.contact .leftSide {
+  height: 100%;
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .rightSide {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact .rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 30px;
+}
+
+form input {
+  height: 40px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+}
+
+form textarea {
+  margin-top: 15px;
+  height: 70px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+form label {
+  margin-top: 15px;
+  color: grey;
+}
+
+form button {
+  margin-top: 40px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #121619;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #121619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 20px;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+.footer p {
+  color: white;
+}
+
+/* Añadir soporte para Forced Colors Mode */
+@media (forced-colors: active) {
+  .contact .leftSide {
+    background: window;
+  }
+
+  .contact .rightSide h1 {
+    color: ButtonText;
+  }
+
+  form input,
+  form textarea {
+    color: ButtonText;
+    border-bottom-color: ButtonText;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: ButtonText;
+  }
+
+  form label {
+    color: ButtonText;
+  }
+
+  form button {
+    background: ButtonFace;
+    color: ButtonText;
+    border-color: ButtonText;
+  }
+
+  form button:hover {
+    background: Highlight;
+    color: HighlightText;
+  }
+
+  .footer {
+    background-color: Window;
+  }
+
+  .socialMedia svg {
+    color: Highlight;
+  }
+
+  .footer p {
+    color: WindowText;
+  }
+}
