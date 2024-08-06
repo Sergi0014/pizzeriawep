@@ -32,3 +32,6 @@ Los usuarios pueden ver una lista de pizzas disponibles en el menú. Cada pizza 
 ### Formulario de Contacto
 
 La página de contacto contiene un formulario donde los usuarios pueden ingresar su nombre, email y un mensaje. El formulario se envía utilizando el método POST.
+
+
+Este proyecto está bajo la Licencia MIT. Mira el archivo [LICENSE](./LICENSE) para más detalles.
