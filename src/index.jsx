@@ -14,7 +14,7 @@ root.render(
   </React.StrictMode>
 );
 
-# MIT License
+/*# MIT License
 # Copyright (c) 2024 Sergi0014
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -35,4 +35,4 @@ root.render(
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-reportWebVitals();
+reportWebVitals();*/
