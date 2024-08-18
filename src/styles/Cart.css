@@ -1,0 +1,137 @@
+/* Estilos para el botón del icono del carrito */
+.cart-icon-button {
+    
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    color: #dce6f0; /* Cambiar el color del icono */
+  }
+  .cart-icon-button:hover {
+    color: #8f3838; /* Cambiar el color del icono al pasar el ratón */
+  }
+  /* Estilos para la ventana emergente del carrito */
+  .cart-popup {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo transparente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+  
+  /* Estilos para la lista de elementos del carrito */
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos para cada elemento del carrito */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilos para el nombre del elemento */
+  .cart-item-name {
+    font-size: 15px;
+  }
+  
+  /* Estilos para el precio del elemento */
+  .cart-item-price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el total del carrito */
+  .cart-total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  /* Estilos para el botón de cerrar */
+  .cart-close-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .cart-close-button:hover {
+    background-color: #c07979;
+  }
+
+
+
+  .cart-item-quantity button {
+    background-color: #fffffff5;
+    border: 1px solid #8bace9;
+    border-radius: 20px;
+    padding: 5px 5px;
+    margin: 0 9px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-item-quantity button:hover {
+    background-color: #cec1c1;
+  }
+  
+  .cart-item-quantity button:active {
+    background-color: #6d1717;
+  }
+
+ 
+  .cart-item-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+
+
+.remove-item-button {
+  background-color: #ff9c9cd0; /* Color de fondo rojo */
+  color: white; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px; /* Tamaño de fuente más pequeño */
+  width: 20px; /* Ancho del botón */
+  height: 20px; /* Altura del botón */
+}
+
+.remove-item-button:hover {
+  background-color: #ff1a1a; /* Color de fondo más oscuro al pasar el cursor */
+}
+
+.remove-item-button svg {
+  margin-right: 5px; /* Espacio entre el ícono y el texto */
+  font-size: 14px; /* Tamaño del ícono */
+}
